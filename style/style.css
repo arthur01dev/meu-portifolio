@@ -164,15 +164,15 @@ header {
   width: 100vw;
   height: 100vh;
   background-color: var(--secondary-color);
-  padding: 25.5% 15%;
+  padding: 25.5% 12%;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20%;
+  gap: 22px;
 }
 
-.about__image img {
-  width: 320%;
+.about__image{
+  width: 300px;
   border-radius: 8px;
   filter: drop-shadow(0 0 8px var(--primary-color));
   border: 2px solid var(--secondary-color);
@@ -187,14 +187,14 @@ header {
   gap: 10px;
 }
 
-.abaut__text h2 {
+.abaut__title {
   color: var(--primary-color);
   font-family: var(--primary-font);
   font-size: 70px;
   margin-bottom: 4%;
 }
 
-.abaut__text p {
+.abaut__paragraph {
   text-align: justify;
   font-size: 24px;
   font-family: var(--secondary-font);
